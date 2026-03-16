@@ -36,6 +36,11 @@ Hand Detection Mouse Control (手部偵測滑鼠控制)
 - Python
 - PyAutoGUI
 
+模型下載
+---------------------------------
+本專案使用 Google hand_landmarker.task 模型 (7.45MB)。由於模型由 Google 提供，建議從官方來源下載，下載後直接放置於專案資料夾根目錄即可：
+hand_landmarker.task
+
 使用方式：
 1. 安裝依賴套件：
    pip install -r requirements.txt
